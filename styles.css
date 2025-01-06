@@ -4,11 +4,23 @@
   box-sizing: border-box;
 }
 
+main {
+
+}
 /* section: form -header */
 .form-header {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* add margin left **/
+  width: 60vw;
+  margin-left: auto;
 }
 
+#title {
+  text-align: left;
+}
 
 fieldset {
  border: none;
