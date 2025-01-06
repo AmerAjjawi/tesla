@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
-fieldset {
+/**fieldset {
   padding: 0;
+  
   
   
 }
@@ -19,7 +20,9 @@ input[type="text"] {
 label {
   margin: 0;
 }
+**/
 
+/** fix the header to make the text align's to the left of the paragraph **/
 
 /*#inner-container-title { 
  display: flex;

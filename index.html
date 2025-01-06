@@ -9,53 +9,43 @@
 </head>
 
 <body>
-  <main>
 
-    <div id="outer-container-img">
-      <!---Image container-->
-      <!---add image-->
-      <img src="">
-    </div>
+  <header class="header">
+    <h1 id="title">Enter Business Email</h1>
+    <p id="paragraph">Enter an email the domain of your business</p>
+  </header>
 
 
-    <div id="outer-container-login">
-      <!--header & title-->
-      <div id="inner-container-title">
-        <h1> Enter Business Email </h1>
-        <p class="emailDomain"><span> Enter an email matching the domain</span><br>of your website </p>
-      </div>
+  <aside class="image-carousel">
+  
+  </aside>
 
-      <div id="inner-container-email">
-        <form action="post" action="https://tesla.com">
 
-          <fieldset>
-               <!--email--->
-               <label for="userEmail">Email</label>
-               <input type="email" id="userEmail" name="userEmail" required />
-            <!--paragraph and submit-->
-            <!--capatcha-->
-            <input type="checkbox" id="captcha" class="userCaptcha" checked /> I am human</input>
 
-            <!---paragraph--->
-            <p class="about-tesla">
-              By clicking "Next", I authorize Tesla to contact me about<br>
-              this request via the contact information I provide. I<br> understand calls or texts may use automatic
-              or<br>
-              computer-assisted dialing or pre-recorded messages. <br>Normal message and data rates apply. I can opt out
-              at
-              any <br>time in the Tesla app or by unsubscribing. This is not <br>required for purchase. I also agree to
-              Tesla's <u><a href="">Privacy Notice</a></u>
-            </p>
-            <!---submit button-->
-            <button id="next">Next</next>
-          </fieldset>
+  <section Class="userInfo">
+    <form action="">
+      <!--email,  check box, authorization paragraph, and button -->
+      <fieldset>
+        <label for="enter-email"> Email
+          <!--email-->
+          <input type="email" id="enter-email" name="enter-email">
+        </label>
 
-        </form>
-      </div> <!--ending of inner container- email div-->
+        <label for="user-check">
+          <!--chekbox-->
+          <input type="checkbox" name="check" id="user-check" name="user-check"> I am human
+          <p class="user-agreement">
+            By clicking "Next", I authorize Tesla to contact me about this request via the contact information information I provide. I understand calls or texts may use automatic or computer-assisted dialing or pre-recorded messages. Normal messages and data rates apply. I can opt out any time in the Tesla app or by unsubscribing. This is not required for purchase. I also agree to Tesla's Privacy Notice.
+          </p>
+        </label>
+        <label for="next-btn"> 
+          <input type="submit" id="next-btn" name="next-btn"> 
+        </label>
+      </fieldset>
+    </form>
+  </section>
 
-    </div> <!--ending of main-div container -->
-
-  </main>
+   
 
     <!--footer-->
     <footer>
