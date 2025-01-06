@@ -1,0 +1,125 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  padding: 0;
+  
+  
+}
+
+h1 {text-align: right;}
+
+input[type="text"] {
+  width: 2px;
+}
+
+label {
+  margin: 0;
+}
+
+
+/*#inner-container-title { 
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ align-items: left;
+} */
+
+/**div inner container **/
+
+#inner-container-email {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+
+/*body{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+fieldset
+{
+  margin: 0;
+  border: none;
+  padding: 0;
+
+} */
+
+
+
+/*add body and padding and remove margins*/
+
+
+
+
+/*image container */
+/*#img {
+    float: left;
+    
+} */
+
+/* email container  
+#email-container {
+    float: right;
+    margin-right: 80px;
+    }
+    */
+
+/*header
+h1 {
+    font-size: 34px;
+    font-family: Menlo, monospace, sans-serif;
+    color: #121212;
+    
+  
+  }
+*/
+  
+  /*paragraph
+  .emailDomain {
+    font-family: Menlo, monospace, sans-serif;
+    color:#5c5e62;
+  }
+
+  */
+  /*input 
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    
+  }
+
+  */
+  
+  /*captcha 
+ #captcha {
+    display: inline;
+    margin: unset;
+    margin-top: 2rem;
+   
+    border: 5px solid #d0d1d2;
+
+ 
+  }
+
+  */
+
+
+  /*
+  .authorize {
+    margin-top: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Universal Sans Text";
+    color: #5c5e62;
+    
+  }
+*/
+  
