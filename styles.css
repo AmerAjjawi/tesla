@@ -15,14 +15,19 @@ body {
 
 
 
-.title {
-  max-width: 500px;
-  
+main {
+  width: 60%;
 }
 
-.paragraph {
-  margin: 0;
-  text-indent: 1.5rem;
+
+#title {
+  max-width: 500px;
+  padding: 0;
+}
+
+#paragraph {
+  padding: 0;
+  text-indent: 3.8rem;
   max-width: 500px;
 
 
