@@ -16,11 +16,7 @@ body {
 
 
 .form-header {
-  border: 2px solid;
-  width: 500px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 
