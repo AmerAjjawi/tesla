@@ -12,13 +12,25 @@ body {
 }
 
 
-
-
-
-.form-header {
+main {
   display: flex;
 }
 
+.form-header {
+  flex-direction: column;
+}
+
+
+/* .form-header {
+  display: flex;
+}
+
+
+h1 {
+  flex-direction: row;
+  justify-content: end;
+
+} */
 
 /* section: form -header */
 /**.form-header {
