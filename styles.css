@@ -12,15 +12,15 @@ body {
 }
 
 
-main {
-  display: flex;
-}
+
 
 .form-header {
   flex-direction: column;
 }
 
+.form {
 
+}
 /* .form-header {
   display: flex;
 }
