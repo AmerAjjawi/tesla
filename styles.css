@@ -42,7 +42,10 @@ fieldset {
   margin: 0;
 }
 
-
+input[type="checkbox"] {
+  margin: 1rem 0;
+  
+}
 
 
 
