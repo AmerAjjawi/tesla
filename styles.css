@@ -1,4 +1,4 @@
-* { 
+:r { 
 
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -11,6 +11,12 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -18,11 +24,14 @@ body {
 
 
 .form-header {
+
+  /*
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   
+  */
 }
 
 #title {
@@ -39,80 +48,30 @@ body {
 
 
 input[type="checkbox"] {
+  
+  
   margin: 1rem 0;
   
 }
 
-
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**fieldset {
-  padding: 0;
   
   
   
-}
-
-h1 {text-align: right;}
-
-input[type="text"] {
-  width: 2px;
-}
-
-label {
-  margin: 0;
-}
-**/
-
-/** fix the header to make the text align's to the left of the paragraph **/
-
-/*#inner-container-title { 
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
- align-items: left;
-} */
-
-/**div inner container **/
-
-#inner-container-email {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: flex-end;
-
-}
-
-/*body{
-  margin: 0;
-  width: 100%;
-  height: 100vh;
 }
 
 fieldset
 {
-  margin: 0;
-  border: none;
-  padding: 0;
+  
+ 
 
-} */
+  border: none;
+
+  
+
+ 
+  
+} 
 
 
 
